@@ -18,7 +18,7 @@ var randomNumber1=Math.floor(Math.random()*6) +1;
 // else if(randomNumber1==6){
 //     document.querySelector(".img1").setAttribute("src","images/dice6.png");
 // }
-var img1src="images/dice"+randomNumber1+".png";
+var img1src="dice"+randomNumber1+".png";
 document.querySelectorAll("img")[0].setAttribute("src",img1src);
 
 
@@ -42,7 +42,7 @@ var randomNumber2=Math.floor(Math.random()*6) +1;
 // else if(randomNumber2==6){
 //     document.querySelector(".img2").setAttribute("src","images/dice6.png");
 // }
-var img2src="images/dice"+randomNumber2+".png";
+var img2src="dice"+randomNumber2+".png";
 document.querySelectorAll("img")[1].setAttribute("src",img2src);
 
 
